@@ -1,0 +1,19 @@
+@charset "utf-8";
+/*内容页 start*/
+#rightList .rightContent .newcontent{padding: 20px 20px;overflow: hidden;color:#333;}
+#rightList .rightContent .newcontent h1{font-size:16px;text-align:center;}
+#rightList .rightContent .newcontent .author{text-align:center;line-height:56px;}
+#rightList .rightContent .newcontent .article_content{width:100%;overflow: hidden;clear: both;text-indent: 2em;line-height: 26px;color: #333;font-size: 14px;letter-spacing:2px;}
+#rightList .rightContent .newcontent .article_content p{font-size:14px !important;text-indent:2em;line-height:24px;overflow:hidden;letter-spacing:2px;color:#555 !important;}
+#rightList .rightContent .newcontent  .article_content .newsCon{width:600px;margin:0 auto;overflow:hidden;}
+#rightList .rightContent .newcontent  .article_content table{width:600px;margin:0 auto;overflow:hidden;}
+#rightList .rightContent  .newcontent  .article_content   .newsCon div{width:600px;margin:0 auto;overflow:hidden;}
+#rightList .rightContent .newcontent  .article_content  .newsCon  p{width:600px;margin:0 auto;overflow:hidden;}
+#rightList .rightContent .newcontent  .article_content  .newsCon span{width:600px;margin:0 auto;overflow:hidden;font-size:14px; letter-spacing:2px;color:#555;}
+#rightList .rightContent .lbcontent .lbfr.content1 .newlist .newcontent .article_content p img{display:block;width:600px;margin:0 auto;}
+
+#rightList .rightContent .page{width:680px;text-align:left;margin:0 auto;padding:20px 0px;}
+#rightList .rightContent .page p{font-size:14px;}
+#rightList .rightContent .page p a{display:inline-block;margin:0px 15px;font-size:14px;}
+
+/*内容页 end*/

@@ -1,0 +1,183 @@
+@charset "utf-8";
+/*内容*/
+
+
+#listcontainer{
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    padding:15px 5px;
+    color: #333;
+}
+#leftList{
+    width:23%;
+    /*background: black;*/
+    float: left;
+
+
+}
+.listContent{
+    width:100%;
+    min-height: 228px;
+    margin-bottom: 8px;
+}
+#leftList .listContent .leftTop{
+    width:219px;
+    height: 29px;
+    background: url("../images/leftlist.jpg") no-repeat center center;
+}
+#leftList .listContent  .leftTop h1{
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 4px 0px 0px 7px;
+}
+#leftList .listContent  .leftTxt{
+    width:98%;
+    height: auto;
+    min-height:180px;
+
+}
+#leftList .listContent  .leftTxt dt{
+    width: 90%;
+    margin:20px auto;
+    height:30px;
+   border: 1px solid #cccccc;
+
+
+}
+#leftList .listContent  .leftTxt dt:hover{
+    background:#5bbbf6 ;
+    border:1px solid #5bbbf6;
+
+}
+#leftList .listContent  .leftTxt span{
+
+}
+
+#leftList  .listContent  .leftTxt dt .trangle{
+    width:8px;
+    height:9px;
+    float: left;
+    padding: 8px 8px;
+    background: url("../images/trangle.gif") no-repeat 10px 10px;
+}
+#leftList .listContent  .leftTxt dt:hover .trangle{
+    background-position: 10px -15px;
+}
+#leftList .listContent  .leftTxt dt .ttitle{
+    font-size: 12px;
+    width:26%;
+    float: left;
+    padding: 6px 43px;
+}
+#leftList .listContent  .leftTxt dt .ttitle a{
+    color: #333;
+    text-decoration: none;
+    display: inline-block;
+}
+#leftList .listContent  .leftTxt dt:hover .ttitle a{
+    color: #fff;
+}
+#leftList .listContent  .leftTxt dt .ttitle a:hover{
+
+    text-decoration: none;
+}
+#leftList .listContent  .leftTxt p{
+    margin-top: 18px;
+    line-height: 15px;
+    margin-left: 7px;
+}
+
+#rightList{
+    width:76%;
+    min-height: 600px;
+    float: right;
+}
+
+#rightList .rightTitle p{
+}
+#rightList .rightTitle p span{
+    /*height:29px;*/
+    background: url("../images/home.gif") left center no-repeat;
+    padding-left: 20px;
+
+}
+#rightList .rightTitle p span a{
+    color: #333;
+    text-decoration: none;
+}
+#rightList .rightTitle p span a：hover{
+    color: #5bbbf6;
+    text-decoration: none;
+}
+#rightList .rightContent{
+    width:99.6%;
+    min-height: 600px;
+
+}
+#rightList .rightContent .listUl{
+    width: 97%;
+    margin: 20px auto;
+}
+#rightList .rightContent .listUl li {
+    height: 100px;
+    overflow: hidden;
+    border-bottom: 1px dashed #999999;
+    padding:20px 0px;
+}
+#rightList .rightContent .listUl li a{
+    color: #333;
+    text-decoration: none;
+}
+#rightList .rightContent .listUl li a:hover{
+    color:#5bbbf6;
+    text-decoration: none;
+}
+#rightList .rightContent .listUl li img{
+    width: 137px;
+    display: inline-block;
+    height: 100px;
+    float: left;
+    border: 1px solid #999999;
+    margin-right: 20px;
+    overflow: hidden;
+}
+#rightList .rightContent .listUl li .listD{
+    width: 77%;
+    height: 100px;
+ float: left;
+
+}
+#rightList .rightContent .listUl li  .listD p{
+    width: 100%;
+    height: 76%;
+    line-height: 25px;
+    overflow: hidden;
+
+
+}
+#rightList .rightContent .listUl li  .listD p a:hover{
+    color:#5bbbf6;
+    text-decoration:underline;
+}
+#rightList .rightContent .listUl li  .listD  h2{
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+}
+#rightList .rightContent .listUl li  .listD  .more{
+margin-left: 20px;
+
+}
+#rightList .rightContent .fenye{
+    width:50px;
+    height: 30px;
+    margin:30px auto;
+
+
+}
+
+
+
